@@ -10,6 +10,8 @@ public class Main {
         String stringTest = "\\bЛ[а-яА-Я]+\\b";
         String stringTest = "\\bЛ[а-яА-Я]+\\b";
         String stringTest = "\\bЛ[а-яА-Я]+\\b";
+        String stringTest = "\\bЛ[а-яА-Я]+\\b";
+        String stringTest = "\\bЛ[а-яА-Я]+\\b";
         String text = "Рекс Лорд Лом Шарик Бобик Шалун";
         Pattern pattern = Pattern.compile(stringTest);
         Matcher matcher = pattern.matcher(text);
